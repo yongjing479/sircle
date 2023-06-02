@@ -17,16 +17,16 @@ body{
 
 .facebooktext{
     padding: 0.5rem;
-    font-size: 3rem;
+    font-size: 3.2rem;
     color: #1877f2;
     font-weight: 770;
 }
 
 .title{
-    font-size:2rem;
+    font-size:2.1rem;
     color : black;
     font-weight: 450;
-    
+    padding: 0.5rem
 }
 
 .logincontainer{
@@ -80,14 +80,15 @@ input::placeholder{
     font-size:15px;
 }
 
-.forget a{
-    color :#1877f2;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    font-size:small;
-    
-}
+
+.forget a {
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 1rem;
+   
+  }
+  
 
 
 .btns{
@@ -137,5 +138,9 @@ input::placeholder{
 }
 
 .btn a:hover{
+    color: black;
+}
+
+.btns b:hover{
     color: black;
 }

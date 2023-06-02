@@ -1,8 +1,8 @@
 import React from 'react';
 import './HeaderArea.css'
-import {AiOutlineSearch, AiOutlineWallet, AiFillHome} from 'react-icons/ai'
-import{FaRegFlag, FaUsers, FaPlusCircle, FaFacebookMessenger, FaBell} from 'react-icons/fa'
-import {MdOndemandVideo} from 'react-icons/md'
+//import {AiOutlineSearch, AiOutlineWallet, AiFillHome} from 'react-icons/ai'
+//import{FaRegFlag, FaUsers, FaPlusCircle, FaFacebookMessenger, FaBell} from 'react-icons/fa'
+//import {MdOndemandVideo} from 'react-icons/md'
 
 function HeaderArea(){
     return(
@@ -12,7 +12,7 @@ function HeaderArea(){
                     <div className="logo">
                     <img src="./images/sircleLogo.png" alt="logo" style={{height:"55px", padding:"1rem"}}/>
 
-                    </div>
+                    {/* </div>
                     <div className="Search">
                         <AiOutlineSearch style={{height:"4rem"}}/>
                         <input placeholder = "Search Sircle" yupe="Search"/>
@@ -49,9 +49,10 @@ function HeaderArea(){
                     </div>
                     <div className="plus">
                         <img src="./images/dp1.png"/>
+                    </div>*/}
                     </div>
                 </div>
-            </div>
+            </div> 
             
         </div>
     )
